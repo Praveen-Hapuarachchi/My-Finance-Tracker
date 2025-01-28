@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #aaedee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    display: inline-block;
+    font-family: Century;
+    font-size: 46px;
+    margin-left: 50px;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-right: 10px;
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 0.4cm;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="number"]::placeholder {
+    color: #999;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0445ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #73097c;
+  }
+  
+  .income-table {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e1f6e1;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-top: 1px solid #090909;
+  }
+  
+  .delete-btn {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .total-amount {
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  /* Additional styling for the navbar */
+  .component {
+    border-radius: 8px;
+    width: auto;
+    background-color: rgb(235, 195, 249);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  ul {
+    margin: auto;
+    font-family: Century;
+  }
+  
+  ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 35px;
+    font-size: 20px;
+  }
+  
+  ul li a {
+    border: 5px solid transparent;
+    border-radius: 8px;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: 0.8 ease;
+  }
+  
+  ul li a:hover {
+    background-color: blue;
+    color: rgb(226, 226, 234);
+  }
+  
+  .sub-menu {
+    display: none;
+  }
+  
+  .sub-menu ul {
+    position: absolute;
+  }
+  
+  .container ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin-top: 12px;
+    margin-left: -40px;
+  }
+  
+  .container ul li:hover .sub-menu ul {
+    display: block;
+    margin: 6px;
+  }
+  
+  .container ul li:hover .sub-menu ul li {
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.8 ease;
+    text-align: left;
+    border-radius: 8px;
+  }
+  
+  li a.signin-button {
+    background-color: maroon;
+    color: white;
+    border: auto solid transparent #aaedee;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin: 20px auto;
+  }
+  
+  ul li a.signin-button:hover {
+    background-color: blue;
+    color: rgb(226, 226, 234);
+  }
+  

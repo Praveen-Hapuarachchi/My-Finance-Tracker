@@ -1,0 +1,145 @@
+h1 {
+    display: inline-block;
+    text-align: center;
+    font-family: Century;
+    font-size: 55px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 80px auto 20px auto; /* Added more space between navbar and content */
+    background-color: #aaedee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+ul {
+    margin-top: auto;
+    font-family: Century;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+ul li a {
+    border: 5px solid transparent;
+    border-radius: 8px;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+
+ul li a:hover {
+    background-color: blue;
+    color: rgb(226, 226, 234);
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu ul {
+    position: absolute;
+}
+
+.container ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin-top: 12px;
+    margin-left: -30px;
+}
+
+.container ul li:hover .sub-menu ul {
+    display: block;
+    margin: 6px;
+}
+
+.container ul li:hover .sub-menu ul li {
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.8s ease;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 0.4cm;
+}
+
+li a.signin-button {
+    background-color: maroon;
+    color: white;
+    border: auto solid transparent #aaedee;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+ul li a.signin-button:hover {
+    background-color: blue;
+    color: rgb(226, 226, 234);
+}
+
+.container1 img {
+    height: 300px;
+    width: 400px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.para {
+    font-family: Century;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: disc; /* Add bullet points */
+    margin-left: 20px; /* Indent the bullet points */
+}
+
+.bullet-points {
+    list-style-type: none; /* Remove default list style */
+    padding-left: 20px; /* Indentation for list */
+}
+
+.bullet-points li {
+    padding-left: 20px; /* Additional indentation for each list item */
+    font-size: 18px;
+    position: relative;
+}
+
+.bullet-points li i {
+    position: absolute;
+    left: -25px; /* Align icon with the bullet point */
+    top: 0;
+}
+
+.fa-check-square {
+    font-size: 20px; /* Adjust the size of the icon */
+    color: green;
+}
+
+.spacer {
+    height: 40px; /* Reduced the height for less space */
+}
