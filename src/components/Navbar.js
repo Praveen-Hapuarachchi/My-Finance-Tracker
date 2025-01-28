@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <ul>
         <li className="dropdown">
-          <Link to="#" className="dropdown-toggle">
+          <Link to="/" className="dropdown-toggle">
             Dashboard <i className="fa fa-caret-down"></i>
           </Link>
           <div className="dropdown-content">
