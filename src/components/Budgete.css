@@ -1,0 +1,184 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+} 
+  
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #aaedee; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+  
+h1 { 
+    text-align: center; 
+    display: inline-block;
+    font-family: Century;
+    font-size: 46px;
+    margin-left: 50px;
+} 
+
+.logo {
+    display: inline-block;
+    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 0.4cm;
+}
+
+.budget-summary {
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.table {
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+}
+
+.table th {
+    background-color: #8bf2da;
+    border-radius: 8px;
+    font-family: Century;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table td {
+    border-radius: 8px;
+    font-family: Century;
+    font-size: 20px;
+}
+
+.table tbody tr {
+    transition: background-color 0.01s;
+}
+
+.table tbody tr:hover {
+    background-color: #d3f6fb;
+}
+
+/* Add this if you want to add some space between the rows */
+.table tbody tr:not(:last-child) {
+    margin-bottom: 10px;
+    margin: 10%;
+}
+
+.table th:first-child, .table td:first-child {
+    /* Adjust the width property for the first column as needed */
+    width: 20%;
+}
+
+.table th:last-child, .table td:last-child {
+    /* Adjust the width property for the last column as needed */
+    width: 10%;
+}
+
+.caption {
+    font-family: Century;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.component {
+    border-radius: 8px;
+    width: auto;
+    background-color: rgb(235, 195, 249);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul {
+    margin: auto;
+    font-family: Century;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+ul li a {
+    border: 5px solid transparent;
+    border-radius: 8px;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: 0.8 ease;
+}
+
+ul li a:hover {
+    background-color: blue;
+    color: rgb(226, 226, 234);
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu ul {
+    position: absolute;
+}
+
+.container ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin-top: 12px;
+    margin-left: -40px;
+}
+
+.container ul li:hover .sub-menu ul {
+    display: block;
+    margin: 6px;
+}
+
+.container ul li:hover .sub-menu ul li {
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.8 ease;
+    text-align: left;
+    border-radius: 8px;
+}
+
+li a.signin-button {
+    background-color: maroon;
+    color: white;
+    border: auto solid transparent #aaedee;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+ul li a.signin-button:hover {
+    background-color: blue;
+    color: rgb(226, 226, 234);
+}
